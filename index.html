@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Portfolio - Miller Ladino</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon for dark mode" class="toggle-theme__icon" />
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+    <!-- 
+        --------------------------
+        links para redes sociales 
+      ------------------------------->
+
+    <div id="social" class="social">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/miller-ingeniero-de-sistemas551642127/" target="_blank"><img
+            src="assets/images/linkedin.png" alt="logo Linkedin enlace" /></a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/millertsu1" target="_blank"><img src="assets/images/github.png"
+            alt="logo GitHub enlace" /></a>
+      </div>
+    </div>
+
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+      <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+      <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <!-- profile card -->
+      <article class="card card--profile">
+        <h2 class="card__title">Profile</h2>
+        <div class="card__image-container">
+          <img src="assets/images/profile_miller.webp" alt="imagen profile" />
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Miller Ladino</h2>
+          <p class="card__subtitle">Front End Developer</p>
+        </div>
+        <div class="card__body">
+          <p class="card_text">
+            I am passionate about my work as
+            a Web Developer with knowledge in SEO, blog content development
+            and video editing. </p>
+          <p class="card_text">I adapt to the project environment very
+            quickly. I have a good foundation of software and database
+            development skills. </p>
+          <p class="card_text">Knowledge and Skills</p>
+          <p class="card_text"> Web Development:</p>
+          <ul class="card_text highlight">
+            <li>HTML </li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+
+          <p class="card_text">BackEnd:</p>
+          <ul class="card_text highlight">
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Wordpress</li>
+          </ul>
+
+          <p class="card_text"> I also have knowledge
+            in customer service, administration and staff coordination.</p>
+          </p>
+          <div class="buttons">
+            <a href="https://drive.google.com/u/0/uc?id=1CRdOka9Ows9sssUTHgDDHHdmWmGRCWMx&export=download"
+              target="_blank" class="button button--primary" download="Descargar CV">Down CV</a>
+            <a href="https://drive.google.com/file/d/1CRdOka9Ows9sssUTHgDDHHdmWmGRCWMx/view?usp=sharing"
+              class="button button--ghost" target="_blank">See CV</a>
+          </div>
+        </div>
+      </article>
+      <!-- tarjetas de la experiencia adquirida -->
+
+      <article class="card card--experience">
+        <h2 class="card__title">Jobs and Experience</h2>
+        <div class="experience">
+          <img src="assets/images/logo-design.png" alt="creación de logo" class="experience__image" />
+          <div class="experience__info">
+            <p class="experience__time">Jan 2021 - Currently</p>
+            <small>Fokiucode, Tecnosoluciones, RedArcade</small>
+            <h3 class="experience__job"> Web Developer, Editor, Designer and other roles.</h3>
+
+            <p class="experience__description">
+              Content creator for YouTube, Facebook, Linkedin and other social networks, I am also a developer and
+              designer for my own websites, graphic designer using tools like Photoshop, Canva, Kdenlive
+            </p>
+          </div>
+        </div>
+
+        <div class="experience">
+          <img src="assets/images/logo-design.png" alt="creación de logo" class="experience__image" />
+          <div class="experience__info">
+            <p class="experience__time">Jan 2017 - Aug 2022</p>
+            <small>Smart Solutions</small>
+            <h3 class="experience__job">Customer service, administration, call center and building websites.</h3>
+
+            <p class="experience__description">
+              Support and administration, inventory control and building websites and applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience">
+          <img src="assets/images/logo-design.png" alt="creación de logo" class="experience__image" />
+          <div class="experience__info">
+            <p class="experience__time">Jan 2011 - Nov 2016</p>
+            <small>Quorum Computer</small>
+            <h3 class="experience__job">Electronic Technician.</h3>
+
+            <p class="experience__description">
+              Support and repair multiple devices like computers, smartphones and other technologies.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- este es el módulo de los Hobbies -->
+      <article class="card card__hobbies">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="card__image-container">
+          <img src="assets/images/playgames.png" alt="imagen de jugador de videojuegos" class="experience__image" />
+        </div>
+        <h3 class="hobbie__title">Play VideoGames</h3>
+        <p class="card__text">
+          After a full day of programming a short break is necessary. I try to do another activity and playing video games is de-stressing, it helps me get out of the routine.
+        </p>
+        <div class="card__image-container">
+          <img src="assets/images/read.png" alt="imagen para leer libros" class="experience__image" />
+        </div>
+        <h3 class="hobbie__title">Read Many books</h3>
+        <p class="card__text">
+          This job requires constant learning. reading documentation and information in blogs, pdfs and books is very important to develop our programming skills. But I don't just read documentation or technical books, I read science fiction books.
+        </p>
+      </article>
+      <!-- este es el fin del módulo de los Hobbies -->
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front-End</h2>
+        <small>Years of experience 0-3 </small>
+
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Javascript</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">SASS</p>
+            <div class="skills__bar skills__bar--10"></div>
+          </div>
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Back-End</h2>
+        <small>Years of experience 0-3 </small>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Python</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">SQL</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">PHP</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Wordpress</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">Design & Multimedia</h2>
+        <small>Years of experience 0-3 </small>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Photoshop</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Video Edition</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Figma</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+        </div>
+      </article>
+
+      <!--módulo de jobs -->
+
+      <article class="card card--project">
+
+        <div class="card__image-container">
+          <h2 class="card__title">Projects</h2>
+          <img src="assets/images/project-redschnauzer.webp" alt="Proyecto1" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Wordpress</span>
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">RedSchnauzerArcade</h2>
+          <small>Arcade Machine Store</small>
+          <p class="card__text">
+            This is a web page that I developed on the WordPress platform that was downloaded directly to my computer as
+            localhost and modified entirely with free WordPress plugins and themes, then tweaked with HTML, CSS and also
+            JavaScript.
+          </p>
+          <p class="card__text">
+            Website details such as SEO content and image optimization are still being worked on, a store has been set
+            up with WooCommerce plugins to sell the products it provides.
+          </p>
+          <div class="buttons">
+            <a href="https://www.redschnauzerarcade.com/" target="_blank" class="button button--primary">Demo</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <h2 class="card__title">Projects</h2>
+          <img src="assets/images/project_fokiucode.webp" alt="Proyecto2" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#WordPress</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">Fokiu Code</h2>
+          <small>Learning Website</small>
+          <p class="card__text">
+            This is a development on the WordPress platform, where a learning site was created to become a web
+            developer, with learning tools and course pages and free resources, and in addition to implementing a plugin
+            for creating courses.
+          </p>
+          <p class="card__text">
+            The website also has a blog page and has a space to showcase the skills of the page developer, with buttons
+            and links to view their work and download resume.
+          </p>
+          <div class="buttons">
+            <a href="https://fokiucode.com/" target="_blank" class="button button--primary">Demo</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <h2 class="card__title">Projects</h2>
+          <img src="assets/images/project_tecnosoluciones.webp" alt="Proyecto1" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML 5</span>
+            <span class="project__tag">#SQL</span>
+            <span class="project__tag">#Wordpress</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">Tecnosoluciones</h2>
+          <small>Techno Blog</small>
+          <p class="card__text">
+            Tecnosoluciones is a techno Blog in Spanish, developed and designed in WordPress, with a simple and
+            optimized interface with SEO content in images and text, as well as being developed for mobile devices. It
+            is a simple but very powerful page
+          </p>
+          <p class="card__text">
+            Functionalities and accessories were added according to the type of web page, in addition to working under
+            very light libraries that allow fast loading despite containing a lot of multimedia content.
+          </p>
+
+          <div class="buttons">
+            <a href="https://tecnosoluciones.blog" target="_blank" class="button button--primary">Demo</a>
+            <!-- <a href="#" class="button button--ghost">Code</a> -->
+          </div>
+        </div>
+      </article>
+
+
+      <article class="card card--project">
+
+        <div class="card__image-container">
+          <h2 class="card__title">Projects</h2>
+          <img src="assets/images/project_fokiucode_coderhouse.webp" alt="Proyecto1" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#JavaScript</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">Project Fokiu Code-Coder House</h2>
+          <small>SImple Website</small>
+          <p class="card__text">
+            For my web development career with the House coder platform, I was asked to deliver a development with
+            several deliverables, including the creation of a basic web page with basic styles as well.
+          </p>
+
+          <div class="buttons">
+            <a href="https://github.com/millertsu1/coder_pre-release-1" target="_blank"
+              class="button button--primary">Demo</a>
+            <a href="https://github.com/millertsu1/coder_pre-release-1" class="button button--ghost"
+              target="_blank">Code</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <h2 class="card__title">Projects</h2>
+          <img src="assets/images/project_travelling.webp" alt="Proyecto2" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#SASS</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">Travelling</h2>
+          <small>Travel Website</small>
+          <p class="card__text">
+            This is a website in current development, it is created with HTML, CSS and JavaScript, with design applied to tourism and travel websites.
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/millertsu1" class="button button--ghost">Code</a>
+          </div>
+        </div>
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <h2 class="card__title">Projects</h2>
+          <img src="assets/images/project_portfolio.webp" alt="Proyecto1" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#SASS</span>
+            <span class="project__tag">#Responsive</span>
+          </div>
+          <h2 class="card__title">Portfolio</h2>
+          <small>Web Portfolio</small>
+          <p class="card__text">
+            This is the last personal project that was to build a portfolio adapted to mobile devices. Built with core web development technologies like HTML, CSS, and JavaScript
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/millertsu1" class="button button--ghost">Code</a>
+            <!-- <a href="#" class="button button--ghost">Code</a> -->
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
